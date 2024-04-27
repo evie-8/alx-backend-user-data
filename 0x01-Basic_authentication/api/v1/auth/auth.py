@@ -17,7 +17,7 @@ class Auth:
         if length_path == 0:
             return True
 
-        slash_path = True if path[length_path_path - 1] == '/' else False
+        slash_path = True if path[length_path - 1] == '/' else False
 
         tmp_path = path
         if not slash_path:
